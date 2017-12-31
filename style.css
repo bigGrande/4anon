@@ -1,0 +1,111 @@
+body{
+  background-color:rgb(53,54,53);
+  margin:100px;
+  overflow:hidden;
+}
+a{
+  text-decoration:none;
+  cursor:default;
+  color:rgb(31,220,32);
+  padding:5px;
+  font-size:10px;
+  font-family:Ubuntu,monospace;
+}
+a:hover{
+  background-color:black;
+}
+ul{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+li{
+  margin-top:2px;
+}
+p{
+  font-size:12px;
+  text-align:center;
+  color:rgb(248,245,220);
+  font-family:cursive;
+}
+#maincontainer{
+  display:box;
+  margin:auto ;
+  width:75%;
+  height:99%;
+  border:3px solid rgb(116,155,111);
+  border-radius:5px;
+  box-shadow:10px 12px 2px 1px black
+}
+#symbol{
+  display:box;
+  margin:auto;
+  position:relative;
+  top:50px;
+  width:226px;
+  height:226px;
+  border:4px solid rgb(0,0,0);
+  border-radius:3px;
+  box-shadow:2px 2px rgb(116,155,111);
+}
+#leftlinks{
+  display:box;
+  margin:auto;
+  background-color:rgb(31,220,32);
+  position:relative;
+  right:38%;
+  width:150px;
+  height:45%;
+  border:4px solid rgb(17,66,1);
+  border-radius:3px;
+  box-shadow: 2px 2px rgb(116,155,111);
+  text-align:left;
+}
+#rightlinks{
+  display:box;
+  margin:auto;
+  background-color:rgb(31,220,32);
+  position:relative;
+  left:38%;
+  top:-46%;
+  width:150px;
+  height:46%;
+  border:4px solid rgb(17,66,1);
+  border-radius:3px;
+  box-shadow: 2px 2px rgb(116,155,111);
+  text-align:right;
+}
+#centerlinks{
+  background-color:rgb(31,220,32);
+  display:box;
+  margin:auto;
+  position:relative;
+  top:-60%;
+  width:336px;
+  height:120px;
+  border:4px solid rgb(17,66,1);
+  border-radius:3px;
+  box-shadow: 2px 2px rgb(116,155,111);
+  text-align:center;
+}
+#datetimesearch{
+  width:247px;
+  height:70px;
+  position:relative;
+  bottom:99%;
+  left:36%;
+  border:2px solid rgb(17,66,1);
+  box-shadow: 2px 2px rgb(116,155,111);
+}
+#leftlinks:hover{
+  background-color:rgb(53,54,53);
+  transition:background-color 0.2s ease-in-out;
+}
+#rightlinks:hover{
+    background-color:rgb(53,54,53);
+    transition:background-color 0.2s ease-in-out;
+}
+#centerlinks:hover{
+    background-color:rgb(53,54,53);
+    transition:background-color 0.2s ease-in-out;
+}
